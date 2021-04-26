@@ -96,7 +96,7 @@ footer {
     text-align: center;
 }*/
 
-form {
+form, table {
     margin: 40px 90px;
 }
 
@@ -133,4 +133,15 @@ form label, form legend {
 .enviar:hover {
     background: darkorange;
     transform: scale(1.2);
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
