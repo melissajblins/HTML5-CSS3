@@ -1,3 +1,8 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CSS do cabeçalho */
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -33,6 +38,62 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
+/* CSS do rodapé */
+footer {
+    background: url(bg.jpg);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+/* CSS da página inicial */
+.banner {
+    width: 100%;
+}
+
+.principal, .beneficios {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+    .titulo-principal {
+        text-align: center;
+        font-size: 2em;
+        margin: 0 0 1em;
+        clear: left;
+    }
+
+.principal p {
+    margin: 0 0 1em; 
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagemutensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
+
+/* CSS da página de produtos */
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -78,24 +139,8 @@ nav a:hover {
     margin-top: 10px;
 }
 
-footer {
-    background: url(bg.jpg);
-    padding: 40px 0;
-    text-align: center;
-}
 
-.copyright {
-    color: #FFFFFF;
-    font-size: 13px;
-    margin-top: 20px;
-}
-
-/*main {
-    width: 940px;
-    margin 0 auto;
-    text-align: center;
-}*/
-
+/* CSS da página de formulário */
 form, table {
     margin: 40px 90px;
 }
