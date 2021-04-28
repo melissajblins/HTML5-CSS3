@@ -58,10 +58,11 @@ footer {
     width: 100%;
 }
 
-.principal, .beneficios, .mapa {
+.principal {
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 3em 0;
+    background: #FEFEFE;   
 }
 
 .titulo-principal {
@@ -91,6 +92,7 @@ footer {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa p {
@@ -98,8 +100,14 @@ footer {
     text-align: center;
 }
 
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
 .beneficios {
     padding: 3em 0;
+    background: #888888;
 }
 
 .conteudo-beneficios {
@@ -115,6 +123,10 @@ footer {
 
 .lista01 {
     line-height: 1.5em;
+}
+
+.lista01:before {
+    content: "★ ";
 }
 
 .lista01:first-child {
