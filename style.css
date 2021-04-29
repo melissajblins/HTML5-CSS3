@@ -70,7 +70,6 @@ footer {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-    color: rgba(0,0,0, 0.3);
 }
 
 .principal p {
@@ -138,6 +137,7 @@ footer {
     width: 50%;
     opacity: 1;
     transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
 }
 
 .imagem-beneficios:hover {
@@ -246,4 +246,45 @@ thead {
 th, td {
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .cabecalho {
+       width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .titulo-principal {
+        padding: 0 10px;
+    }
+
+    .imagemutensilios {
+        width: 70%;
+        display: block;
+        margin: 0 20px 20px 0;
+        padding: 0 50px;
+    }
+
+    .principal p {
+        text-align: justify;
+        margin: 0 0 1em; 
+        padding: 0 20px;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%
+    } 
+
+    .lista01 {
+        line-height: 1.5em;
+        padding: 0 0 0 10px;
+        margin-bottom: 0.5em;
+    }
 }
